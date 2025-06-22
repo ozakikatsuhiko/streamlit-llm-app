@@ -1,5 +1,8 @@
+
 from dotenv import load_dotenv
 load_dotenv()
+
+from openai import OpenAI
 
 from langchain_openai import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage
